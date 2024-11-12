@@ -2,7 +2,7 @@ function translateToJS(bangkaCode) {
   return bangkaCode
     .replace(/\batek\b/g, "let")
     .replace(/\bpancet\b/g, "const")
-    .replace(/\bvariabel\b/g, "var")
+    .replace(/\bisian\b/g, "var")
     .replace(/\buleng\b/g, "for")
     .replace(/\bselame\b/g, "while")
     .replace(/\bgawean\b/g, "function")
