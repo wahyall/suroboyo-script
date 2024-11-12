@@ -13,7 +13,7 @@ function translateToJS(bangkaCode) {
     .replace(/\btampilno\b/g, "console.log")
     .replace(/\bngelist\b/g, "[]")
     .replace(/\bobjek\b/g, "{}")
-    .replace(/\btambah\b/g, ".push")
+    .replace(/\bnambah\b/g, ".push")
     .replace(/\bambek\b/g, ".pop")
     .replace(/\bdowo\b/g, ".length")
     .replace(/\biki\b/g, "this")
@@ -53,11 +53,15 @@ function translateToJS(bangkaCode) {
     .replace(/\bjupukProperti\b/g, ".get")
     .replace(/\btanggalAnyar\b/g, "new Date")
     .replace(/\bformatTanggal\b/g, ".toISOString")
-    .replace(/\bdinoIki\b/g, 'new Date().toISOString().split("T")[0]')
+    .replace(
+      /\bdinoIki\b/g,
+      `(function () {return new Date().toISOString().split("T")[0]})`
+    )
     .replace(
       /tambahDino\b/g,
       "function(date, days) { const result = new Date(date); result.setDate(result.getDate() + days); return result; }"
     )
+    .replace(/\btambah\b/g, "-")
     .replace(/\bkurang\b/g, "-")
     .replace(/\bkali\b/g, "*")
     .replace(/\bbagi\b/g, "/")

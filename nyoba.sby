@@ -7,3 +7,9 @@ lek (nilai lebihGedeTeko 90) {
 } lekGaYowes {
     tampilno("Ga Lulus")
 }
+
+atek angka = 5
+tampilno(angka kali 5)
+tampilno(angka tambah 5)
+tampilno(angka kurang 5)
+tampilno(angka bagi 5)
