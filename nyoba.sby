@@ -1,0 +1,9 @@
+pancet nilai = 75
+
+lek (nilai lebihGedeTeko 90) {
+    tampilno("Oleh: A")
+} lekGa (nilai lebihGedeTeko 80) {
+    tampilno("Oleh: B")
+} lekGaYowes {
+    tampilno("Ga Lulus")
+}
