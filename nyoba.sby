@@ -13,3 +13,7 @@ tampilno(angka kali 5)
 tampilno(angka tambah 5)
 tampilno(angka kurang 5)
 tampilno(angka bagi 5)
+
+ngulang (atek i = 1; i <= 10; i++) {
+    tampilno("Urut: " + i)
+}
