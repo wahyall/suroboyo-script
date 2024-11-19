@@ -1,0 +1,15 @@
+pancet nilai = 75
+
+lek (nilai lebihGedeTeko 90) {
+    tampilno("Oleh: A")
+} lekGa (nilai lebihGedeTeko 80) {
+    tampilno("Oleh: B")
+} lekGaYowes {
+    tampilno("Ga Lulus")
+}
+
+atek angka = 5
+tampilno(angka kali 5)
+tampilno(angka tambah 5)
+tampilno(angka kurang 5)
+tampilno(angka bagi 5)
