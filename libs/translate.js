@@ -51,7 +51,10 @@ function translateToJS(code) {
     .replace(/\bnambahProperti\b/g, ".set")
     .replace(/\bbuwakProperti\b/g, "delete")
     .replace(/\bjupukProperti\b/g, ".get")
-    .replace(/\btanggalAnyar\b/g, "new Date")
+    .replace(/\bTanggalan\b/g, "Date")
+    .replace(/\.tahun\b/g, ".getFullYear")
+    .replace(/\.bulan\b/g, ".getMonth")
+    .replace(/\.tanggal\b/g, ".getDate")
     .replace(/\bformatTanggal\b/g, ".toISOString")
     .replace(
       /\bdinoIki\b/g,
