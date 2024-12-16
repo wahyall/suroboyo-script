@@ -1,3 +1,23 @@
 ngulang (atek i = new Tanggalan().tahun(); i lebihCilikPodoKaro 2029; i++) {
     tampilno("Tahun " + i);
 }
+
+pancet nilai = 75
+
+lek (nilai lebihGedeTeko 90) {
+    tampilno("Oleh: A")
+} lekGa (nilai lebihGedeTeko 80) {
+    tampilno("Oleh: B")
+} lekGaYowes {
+    tampilno("Ga Lulus")
+}
+
+atek angka = 5
+tampilno(angka kali 5)
+tampilno(angka tambah 5)
+tampilno(angka kurang 5)
+tampilno(angka bagi 5)
+
+ngulang (atek i = 1; i <= 10; i++) {
+    tampilno("Urut: " + i)
+}
